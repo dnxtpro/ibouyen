@@ -1,0 +1,29 @@
+.svg-container1 {
+
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.svg-container1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+.svg-container1 .primary {
+  opacity: 1;
+}
+
+.svg-container1 .secondary {
+  opacity: 0;
+}
+
+.svg-container1:hover .primary {
+  opacity: 0;
+}
+
+.svg-container1:hover .secondary {
+  opacity: 1;
+}
