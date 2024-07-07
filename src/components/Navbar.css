@@ -1,8 +1,6 @@
-.imagen{
-    margin-top:-200px
-}
+
 .svg-container {
-  width: 900px;
+  width: 700px;
   height: 200px;
   position: relative;
 }
@@ -29,12 +27,10 @@
 .svg-container:hover .secondary {
   opacity: 1;
 }
-.imagen{
-    margin-top:-200px
-}
+
 .img-container {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative;
 }
 
@@ -45,18 +41,24 @@
   transition: opacity 0.5s ease;
 }
 
-.img-container .prim {
+.img-container .primary {
   opacity: 1;
 }
 
-.img-container .sec {
+.img-container .secondary {
   opacity: 0;
 }
 
-.img-container:hover .prim {
+.img-container:hover .primary {
   opacity: 0;
 }
 
-.img-container:hover .sec{
+.img-container:hover .secondary{
   opacity: 1;
+}
+.illo{
+  left:100px;
+}
+.loco{
+  right:100px;
 }

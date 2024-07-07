@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='mt-0'>
+    <div className='mt-0 w-full'>
   <Navbar/>
   <Hero/>
   </div>

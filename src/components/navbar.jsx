@@ -5,16 +5,17 @@ function Navbar() {
   
   return (
     
-   <nav className="flex flex-row">
-    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+   <nav className="flex flex-row ">
+    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-2 p-4 w-full">
     <ul className="flex flex-row w-full">
       
-      <a href="#"><div className='svg-container'> <img className=' primary'  src="./ibouyen.svg"></img><img className='secondary'src="./ibouyen2.svg"></img></div></a>
-      <div className='ml-10 flex-row justify-items-end '><a className='justify-end' href='https://www.instagram.com/ibouyen'><div className="img-container">
-        <img className='prim' width={88} src="./ig2.svg"></img>
-        <img className='sec' width={88} src="./ig2N.svg"></img>
-        </div></a>
-      </div>
+     <a href="#" className=''><div className='svg-container'> <img className=' primary'  src="./ibouyen3.PNG"></img><img className='secondary'src="./ibouyenN.png"></img></div></a>
+     <div  className='flex flex-row  align-middle space-x-4'>
+            <a href='#' className='img-container'><img className="illo primary" src="./AM.png" alt="" /> <img width={200} className="illo   secondary" src="./AMN.png" alt="" />      </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./work.png" alt="" /> <img width={200} className="illo secondary" src="./WORKN.png" alt="" />   </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./RONDA.png" alt="" /><img width={200} className="illo secondary" src="./RONDAN.png" alt="" /> </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./shop.png" alt="" /><img width={200} className="illo  secondary" src="./SHOPN.png" alt="" />  </a>
+     </div> 
     </ul>
     </div>
    </nav>
