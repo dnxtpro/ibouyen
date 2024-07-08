@@ -11,10 +11,10 @@ function Navbar() {
       
      <a href="#" className=''><div className='svg-container'> <img className=' primary'  src="./ibouyen3.PNG"></img><img className='secondary'src="./ibouyenN.png"></img></div></a>
      <div  className='flex flex-row  align-middle space-x-4'>
-            <a href='#' className='img-container'><img className="illo primary" src="./AM.png" alt="" /> <img className="illo   secondary" src="./AMN.png" alt="" />      </a>
-            <a href='#' className='img-container'><img className="illo primary" src="./work.png" alt="" /> <img className="illo secondary" src="./WORKN.png" alt="" />   </a>
-            <a href='#' className='img-container'><img className="illo primary" src="./RONDA.png" alt="" /><img className="illo secondary" src="./RONDAN.png" alt="" /> </a>
-            <a href='#' className='img-container'><img className="illo primary" src="./shop.png" alt="" /><img className="illo  secondary" src="./SHOPN.png" alt="" />  </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./AM.PNG" alt="" /> <img className="illo   secondary"   src="./AMN.PNG" alt="" />      </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./work.PNG" alt="" /> <img className="illo secondary" src="./WORKN.PNG" alt="" />   </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./RONDA.PNG" alt="" /><img className="illo secondary" src="./RONDAN.PNG" alt="" /> </a>
+            <a href='#' className='img-container'><img className="illo primary" src="./shop.PNG" alt="" /><img className="illo  secondary" src="./SHOPN.PNG" alt="" />  </a>
      </div> 
     </ul>
     </div>

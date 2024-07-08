@@ -41,6 +41,7 @@
   width: 200px;
   height: 200px;
   position: relative;
+  left:100px;
 }
 
 
@@ -66,9 +67,8 @@
 .img-container:hover .secondary{
   opacity: 1;
 }
-.illo{
-  left:100px;
-}
+
+
 .loco{
   right:100px;
 }
@@ -77,6 +77,7 @@
   .img-container{
    width: 50px;
    height: 50px;
+   left:5px;
   }
   .illo{
     left:5px;

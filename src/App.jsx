@@ -8,9 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='mt-0 w-full'>
+    <div className='mt-0 w-full justify-center'>
   <Navbar/>
+  <div className="mx-auto ">
   <Hero/>
+  </div>
   </div>
   )
 }
