@@ -3,6 +3,8 @@ import Navbar from './components/navbar'
 import Logo from './components/logo.jsx'
 import './App.css'
 import Hero from './components/hero.jsx'
+import Work from './components/work.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,7 @@ function App() {
   <div className="mx-auto ">
   <Hero/>
   </div>
+  <Work/>
   </div>
   )
 }

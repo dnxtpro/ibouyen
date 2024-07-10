@@ -1,11 +1,18 @@
 import './hero.css'
+import { motion } from 'framer-motion'
+import { useScroll } from 'framer-motion'
+
 
 function Hero() {
+  const { scrollY } = useScroll()
   
   return (
     
-<div className='mx-auto justify-center items-center'><img className='ml-64' src='./Gif.GIF'></img></div>
+<div className='w-full'>
+<img className=' px-2 w-full' src='./Baja calidad.GIF'/>
+  </div>
    
+
   )
 }
 
