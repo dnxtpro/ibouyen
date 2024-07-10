@@ -15,7 +15,7 @@ function Navbar() {
             <a href='#' className='img-container'><img className="illo primary" src="./AM.PNG" alt="" /> <img className="illo   secondary"   src="./AMN.PNG" alt="" />      </a>
             <a href='#' className='img-container'><img className="illo primary" src="./RONDA.PNG" alt="" /><img className="illo secondary" src="./RONDAN.PNG" alt="" /> </a>
             <a href='#' className='img-container'><img className="illo primary" src="./shop.PNG" alt="" /><img className="illo  secondary" src="./SHOPN.PNG" alt="" />  </a>
-            <a href='#' className='img-container'><img className="illo primary" src="./shop.PNG" alt="" /><img className="illo  secondary" src="./SHOPN.PNG" alt="" />  </a>  
+            <a href='#' className='img-container'><img className="illo primary" src="./Contactn.PNG" alt="" /><img className="illo  secondary" src="./Contact.PNG" alt="" />  </a>  
      </div> 
     </ul>
     </div>

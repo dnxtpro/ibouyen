@@ -4,12 +4,12 @@ import { useScroll } from 'framer-motion'
 
 
 function Hero() {
-  const { scrollY } = useScroll()
+  const { scrollYProgress } = useScroll()
   
   return (
     
-<div className='w-full'>
-<img className=' px-2 w-full' src='./Baja calidad.GIF'/>
+<div className=' lolo mx-auto mt-4'>
+<img className='w-full an  ' src='./Buena calidad.GIF'/>
   </div>
    
 

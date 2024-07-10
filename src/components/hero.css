@@ -1,4 +1,17 @@
 .lolo{
-    height:600px;
-    background-color:#432cf3;
+    width:1650px;
+
+}
+@keyframes show{
+    from{
+        opacity:1;
+        sccale:100%;
+    }
+    to{
+        opacity:0;
+        scale:50%;
+    }
+}
+.hei{
+    height:1280px;
 }
