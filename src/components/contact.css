@@ -1,0 +1,30 @@
+.imgw-container {
+  width: 40%;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+
+.imgw-container img {
+  width: 100%;
+  aspect-ratio:1/1;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+.imgw-container .primary {
+  opacity: 1;
+}
+
+
+.imgw-container .secondary {
+  opacity: 0;
+}
+
+.imgw-container:hover .primary {
+  opacity: 0;
+}
+
+.imgw-container:hover .secondary{
+  opacity: 1;
+}

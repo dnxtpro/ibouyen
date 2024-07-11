@@ -7,6 +7,7 @@ import Work from './components/work.jsx'
 import { motion,useScroll,useSpring,useTransform } from 'framer-motion'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Products from './components/products.jsx'
+import Contact from './components/contact'
 
 
 function App() {
@@ -19,17 +20,15 @@ function App() {
     <div className='mt-0 w-full justify-center'>
     
   
-    <div className="mx-auto static ">
+
     <Routes>
       <Route path="/shop" element={<Hero/>}/>
-    </Routes>
-  </div>
 
-   <Routes>
       <Route path="/work" element={<Work/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+
     </Routes>
-  
-  
+
   </div>
   </Router>
   
