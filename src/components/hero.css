@@ -1,17 +1,10 @@
 .lolo{
-    width:1650px;
+        width: 100%;
+        margin: 6px;
+    
 
 }
-@keyframes show{
-    from{
-        opacity:1;
-        sccale:100%;
-    }
-    to{
-        opacity:0;
-        scale:50%;
-    }
-}
+
 .hei{
     height:1280px;
 }

@@ -5,22 +5,34 @@ import './App.css'
 import Hero from './components/hero.jsx'
 import Work from './components/work.jsx'
 import { motion,useScroll,useSpring,useTransform } from 'framer-motion'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Products from './components/products.jsx'
 
 
 function App() {
   const [count, setCount] = useState(0);
-  const{scrollYProgress} = useScroll();
   
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.5]);
 
   return (
+    <Router>
+      <Navbar/>
     <div className='mt-0 w-full justify-center'>
-  <Navbar/>
-  <motion.div style={{scale}} className="mx-auto ">
-  <Hero/>
-  </motion.div>
-  <Work/>
+    
+  
+    <div className="mx-auto static ">
+    <Routes>
+      <Route path="/shop" element={<Hero/>}/>
+    </Routes>
   </div>
+
+   <Routes>
+      <Route path="/work" element={<Work/>}/>
+    </Routes>
+  
+  
+  </div>
+  </Router>
+  
   )
 }
 
