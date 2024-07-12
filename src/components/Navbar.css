@@ -4,10 +4,10 @@
   aspect-ratio:7/2;
   position: relative;
 }
-@media only screen and (max-device-width : 1024px) {
+@media only screen and (max-device-width : 1025px) {
  .svg-container{
   width: 100%;
-  height:count(100%-50%);
+  
  }
  
 }
@@ -76,7 +76,7 @@
   right:100px;
 }
 
-@media only screen and (max-device-width : 1024px) {
+@media only screen and (max-device-width : 1025px) {
   .img-container{
    width: 100%;
    aspect-ratio: 1/1;

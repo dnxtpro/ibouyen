@@ -10,7 +10,7 @@ function Hero() {
   const y=useTransform(scrollYProgress,[0,1],[0,-300])
   
   return (
-    <>
+    <div className='relative z-0'>
 <motion.div style={{scale,y}} className=' lolo mt-4 '>
 <img className='w-full' src='./Baja calidad.GIF'/>
 </motion.div>
@@ -18,7 +18,7 @@ function Hero() {
   <Products/>
 </div>
 
-</>
+</div>
 
   )
 }
