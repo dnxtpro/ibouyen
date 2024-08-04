@@ -8,6 +8,8 @@ import { motion,useScroll,useSpring,useTransform } from 'framer-motion'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Products from './components/products.jsx'
 import Contact from './components/contact'
+import Footer from './components/footer.jsx'
+import Ronda from './components/ronda.jsx'
 
 
 function App() {
@@ -26,10 +28,12 @@ function App() {
 
       <Route path="/work" element={<Work/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/ronda" element={<Ronda/>}/>
 
     </Routes>
 
   </div>
+
   </Router>
   
   )
