@@ -28,7 +28,11 @@
 .imgw-container:hover .secondary{
   opacity: 1;
 }
-.perso{
+@font-face {
+  font-family: 'CourierPrime';
+  src: url('./fonts/CourierPrime-Regular.ttf') format('truetype');
+}
 
-  font-family: Georgia, serif;
+.perso {
+  font-family: 'CourierPrime', 'Courier New', Courier, monospace;
 }

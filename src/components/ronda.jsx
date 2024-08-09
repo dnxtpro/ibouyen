@@ -1,6 +1,6 @@
 import './products.css'
 import { motion,useScroll,useTransform} from 'framer-motion'
-
+import ImageSlider from './slider'
 
 
 function Ronda() {
@@ -8,9 +8,9 @@ function Ronda() {
   return (
       
 <div className='flex flex-col mx-auto'>
-  <div><img src="/rondaz.PNG " className='w-2/4 mx-auto' alt="" /></div>
+  <div><ImageSlider></ImageSlider></div>
     <div className=' perso flex flex-row mx-32 space-x-8  '>
-        <img src="/burro.PNG" className='w-3/12 h-5/6' alt="" />
+    <img src="/burro.PNG" className='w-3/12 h-5/6' alt="" />
     <h1 className='w-2/12 '>
     Berrad 
     
@@ -43,8 +43,8 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     
     
     </h1>  
-<img src="/berrad.jpg" className=' w-1/12' alt="" />    
-<img src="/sota.PNG " className='w-1/4 h-5/6' alt="" />
+<img src="/berrad.jpg" className=' w-2/12' alt="" />    
+<img src="/sota.PNG " className='w-3/12 h-5/6' alt="" />
    
     </div>
     <div className=' perso flex flex-row space-x-8 mx-32'>
@@ -66,7 +66,7 @@ Cet objet s’inspire de l’hétérogénéité que l’on retrouve en Afrique d
 
 Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lunes, mais pas que ça.
 
-Cette fois-ci, l’objet transcende l’individu et montre la communauté, le régional : une unité dans la diversité, un combat pour maintenir l’authenticité , même dans un monde qui tend vers l'uniformisation. </h1>
+1Cette fois-ci, l’objet transcende l’individu et montre la communauté, le régional : une unité dans la diversité, un combat pour maintenir l’authenticité , même dans un monde qui tend vers l'uniformisation. </h1>
     <img className='w-1/12' src="/kemara.jpg" alt="" />
     <img className='w-3/12 h-5/6' src="/sota.PNG" alt="" />
     </div>
