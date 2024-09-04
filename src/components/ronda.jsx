@@ -7,10 +7,14 @@ function Ronda() {
 
   return (
       
-<div className='flex flex-col mx-auto'>
+<div className='flex flex-col mx-auto space-y-4'>
   <div><ImageSlider></ImageSlider></div>
-    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center '>
-    <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12'  alt="" />
+    <div className=' perso flex flex-col md:mx-16 mx-8 md:space-x-8 md:flex-row place-items-center space-y-4  '>
+      <div className="flex flex-row">
+      <img src="/Berrad 1.png" className='md:w-3/12 h-5/6 w-6/12'  alt="" />
+      <img src="/Berrad 2.png" className='md:w-3/12 h-5/6 w-6/12 md:hidden'  alt="" />
+      </div>
+    
     <h1 className='md:w-2/12 md:block hidden'>
     Berrad 
     
@@ -43,11 +47,15 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     
     
     </h1>  
-<img src="/sota.PNG " className='md:w-3/12 h-5/6 w-6/12' alt="" />
+   <img src="/Berrad 2.png " className='md:w-3/12 h-5/6 w-6/12 hidden md:block' alt="" />
    
     </div>
-    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>
-    <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+    <div className=' perso flex flex-col md:mx-16 mx-8 md:space-x-8 md:flex-row place-items-center space-y-4'>
+
+    <div className="flex flex-row">  
+    <img src="/Kemara 1.png" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+    <img src="/Kemara 3.png" className='md:w-3/12 h-5/6 w-6/12 md:hidden' alt="" />
+    </div>
     <h1 className='md:w-2/12 mt-32 md:block hidden'>The coins from the original card game are replaced by faces, the circular shape is repeated, but we discover faces (Kemmara) with distinct and diverse features.
     
     This object is inspired by the heterogeneity found in North Africa, we see different faces and different Amazigh tattoos which represent symbols of nature, mainly those related to the lunar.
@@ -67,12 +75,17 @@ Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lune
 
 1Cette fois-ci, l’objet transcende l’individu et montre la communauté, le régional : une unité dans la diversité, un combat pour maintenir l’authenticité , même dans un monde qui tend vers l'uniformisation. </h1>
     
-    <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
+    <img className='md:w-3/12 h-5/6 w-6/12 md:block hidden' src="/Kemara 3.png" alt="" />
     </div>
 
 
     
-  <div className='perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>
+  <div className='perso flex flex-col md:mx-16 mx-8 md:space-x-8 md:flex-row place-items-center space-y-4'>
+    <div className="flex flex-row">
+    <img className='md:w-3/12 h-5/6 w-6/12' src="/Nejma 1.png" alt="" />
+    <img className='md:w-3/12 h-5/6 w-6/12 md:hidden' src="/Nejma 2.png" alt="" />
+
+    </div>
   
     
   <h1 className='md:w-2/12 mt-32 md:block hidden'>
@@ -96,10 +109,14 @@ Les épées du jeu original, qui sont des outils de guerre, sont remplacées dan
 
 Dans la mythologie Amazighe, la première étoile qui apparaît dans le ciel est la déesse “Taïa”, fille d’”Ayyour” : la lune, elle est la mère engendrée et la mère qui engendrera les autres étoiles, suivant son apparition. 
   </h1> 
-  <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
+  <img className='md:w-3/12 h-5/6 w-6/12 md:block hidden' src="/Nejma 2.png" alt="" />
   </div>
-    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>  
-    <img src="/carass.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+    <div className=' perso flex flex-col md:mx-16 mx-8 md:space-x-8 md:flex-row place-items-center space-y-4'>  
+      <div className="flex flex-row">
+      <img src="/Bashar 1-min.png" className='md:w-3/12 h-5/6 w-6/12 ' alt="" />
+      <img src="/Bashar 2-min.png" className='md:w-3/12 h-5/6 w-6/12 md:hidden ' alt="" />
+      </div>
+    
   
 
   <h1 className='md:w-2/12 mt-32 md:block hidden'>
@@ -127,7 +144,7 @@ Nous passons du transcendantal au corporel, au tangible. Nous étendons le régi
 
 "Le symbole sert à se reconnaître."
     </h1>
-    <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
+    <img className='md:w-3/12 h-5/6 w-6/12 md:block hidden' src="/Bashar 2-min.png" alt="" />
     </div>
 </div>
    

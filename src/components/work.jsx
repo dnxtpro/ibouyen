@@ -2,7 +2,7 @@ import './hero.css'
 
         const handleDownload = () => {
           const link = document.createElement('a');
-          link.href = '/Portofolio-Ibouyen.pdf'; // Ruta relativa al PDF en la carpeta 'public'
+          link.href = '/Portofolio.pdf'; // Ruta relativa al PDF en la carpeta 'public'
           link.download = 'PortofolioIbouyen.pdf'; // Nombre sugerido al descargar el archivo
           link.click();
         };

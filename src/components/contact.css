@@ -34,5 +34,8 @@
 }
 
 .perso {
-  font-family: 'CourierPrime', 'Courier New', Courier, monospace;
+  font-family: Georgia, serif; /* Establece la fuente Georgia */
+    font-weight: bold; /* Aplica negrita */
+    font-size: 14px; 
+    color: #4e24ff;
 }
