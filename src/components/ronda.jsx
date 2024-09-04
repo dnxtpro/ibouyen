@@ -74,7 +74,7 @@ Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lune
     
   <div className='perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>
   
-  <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+    
   <h1 className='md:w-2/12 mt-32 md:block hidden'>
   The “Nejma” (stars in Arabic) are the crosses or stars of Agadez, we can find them in jewelry and decorative designs of several ethnic groups in North Africa.
     

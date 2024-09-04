@@ -1,5 +1,13 @@
 import './hero.css'
 
+        const handleDownload = () => {
+          const link = document.createElement('a');
+          link.href = '/Portofolio-Ibouyen.pdf'; // Ruta relativa al PDF en la carpeta 'public'
+          link.download = 'PortofolioIbouyen.pdf'; // Nombre sugerido al descargar el archivo
+          link.click();
+        };
+
+
 function Work() {
     
   
@@ -27,7 +35,7 @@ function Work() {
        
         <div className='col-span-4 col-start-3 row-start-5 flex flex-row'>
                 <div className="grid grid-cols-2 gap-0">
-                        <div className="row-span-2"><img src="./work/clickhere.png" alt="" /></div>
+                        <div onClick={handleDownload} className="row-span-2"><img src="./work/clickhere.png" className=' hover:cursor-pointer' alt="" /></div>
                         <div className="row-span-2 col-start-2 row-start-2"> <img src="./work/estatua.jpg" alt="" /></div>
                  </div>
 
