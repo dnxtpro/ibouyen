@@ -4,49 +4,37 @@ function Work() {
     
   
   return (
-     <div className="container px-5 py-24 mx-auto hei mt-36     x">
-<div className='flex flex-wrap sm:-m-4 mx-4 mb-10 mt-4'>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+<div className="grid grid-cols-6 gap-0 h-3/6">
+        <div className="col-span-3 py-0 my-0"><img src="./work/burro.jpg" alt="" /></div>    
+        <div className='col-span-3 col-start-4 flex flex-col'>
+        <img src="./work/paisajes.png" className='' alt="" />
+        <img src="./work/fadelrezando.png" alt="" />
+        </div>
+        <div className="col-span-3 row-span-2 row-start-2">
+        <img src="./work/fadelplayboy-min.png"  alt="" />
+        </div>
+        <div className='col-span-3 col-start-4 row-start-2'>
+        <img src="./work/bichos.png"  alt="" />
         </div>
         
-</div>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
-        </div>
-</div>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
-        </div>  
-</div>
-
-
-
-</div>
-<div className='flex flex-wrap mt-10 sm:-m-4 -mx-4 mb-10 -mt-10'>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+        <div className='col-span-3 row-span-2 col-start-4 row-start-3'>
+        <img src="./work/dormida-min.png"  alt="" />
         </div>
         
-</div>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+        <div className='col-span-2 row-span-2 row-start-4'>
+        <img  src="./work/aichakandicha.jpg"  alt="" />
         </div>
-</div>
-<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
-        </div>  
-</div>
+       
+        <div className='col-span-4 col-start-3 row-start-5 flex flex-row'>
+                <div className="grid grid-cols-2 gap-0">
+                        <div className="row-span-2"><img src="./work/clickhere.png" alt="" /></div>
+                        <div className="row-span-2 col-start-2 row-start-2"> <img src="./work/estatua.jpg" alt="" /></div>
+                 </div>
 
-
-
-</div>
+                
+        </div>
+        
+ 
 </div>
   )
 }
