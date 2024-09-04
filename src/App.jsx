@@ -10,6 +10,7 @@ import Products from './components/products.jsx'
 import Contact from './components/contact'
 import Footer from './components/footer.jsx'
 import Ronda from './components/ronda.jsx'
+import Aboutme from './components/aboutme.jsx'
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
       <Route path="/work" element={<Work/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/ronda" element={<Ronda/>}/>
+      <Route path="/aboutme" element={<Aboutme/>}/>
+
 
     </Routes>
 

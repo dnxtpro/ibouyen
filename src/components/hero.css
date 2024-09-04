@@ -8,3 +8,9 @@
 .hei{
     height:1280px;
 }
+.fontp{
+    font-family: Georgia, serif; /* Establece la fuente Georgia */
+    font-weight: bold; /* Aplica negrita */
+    font-size: 20px; 
+    color: #4e24ff;
+}
