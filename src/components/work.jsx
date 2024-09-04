@@ -4,7 +4,7 @@ function Work() {
     
   
   return (
-     <div className="container px-5 py-24 mx-auto hei mt-36">
+     <div className="container px-5 py-24 mx-auto hei mt-36     x">
 <div className='flex flex-wrap sm:-m-4 mx-4 mb-10 mt-4'>
 <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div class="rounded-lg h-64 overflow-hidden">

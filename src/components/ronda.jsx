@@ -9,9 +9,9 @@ function Ronda() {
       
 <div className='flex flex-col mx-auto'>
   <div><ImageSlider></ImageSlider></div>
-    <div className=' perso flex flex-row mx-32 space-x-8  '>
-    <img src="/burro.PNG" className='w-3/12 h-5/6' alt="" />
-    <h1 className='w-2/12 '>
+    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center '>
+    <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12'  alt="" />
+    <h1 className='md:w-2/12 md:block hidden'>
     Berrad 
     
     “Ronda by Ibouyen” is a new reflection and reinterpretation of the most famous card game in Morocco, a card game found in several Mediterranean countries, probably transmitted by the Gypsies throughout the North of the Mediterranean then in the Maghreb. 
@@ -27,7 +27,7 @@ function Ronda() {
     
     
     </h1>
-    <h1 className='w-2/12 '>
+    <h1 className='md:w-2/12 '>
     Berrad 
 
 “Ronda by Ibouyen” est une nouvelle réflexion et une réinterprétation du plus célèbre des jeux de cartes au Maroc, un jeu de cartes que l’on retrouve dans plusieurs pays de la Méditerranée, probablement transmis par les Tziganes à travers tout le Nord de la méditerranée puis dans le Maghreb. 
@@ -43,13 +43,12 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     
     
     </h1>  
-<img src="/berrad.jpg" className=' w-2/12' alt="" />    
-<img src="/sota.PNG " className='w-3/12 h-5/6' alt="" />
+<img src="/sota.PNG " className='md:w-3/12 h-5/6 w-6/12' alt="" />
    
     </div>
-    <div className=' perso flex flex-row space-x-8 mx-32'>
-    <img src="/burro.PNG" className='w-3/12 h-5/6' alt="" />
-    <h1 className='w-2/12 mt-32'>The coins from the original card game are replaced by faces, the circular shape is repeated, but we discover faces (Kemmara) with distinct and diverse features.
+    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>
+    <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+    <h1 className='md:w-2/12 mt-32 md:block hidden'>The coins from the original card game are replaced by faces, the circular shape is repeated, but we discover faces (Kemmara) with distinct and diverse features.
     
     This object is inspired by the heterogeneity found in North Africa, we see different faces and different Amazigh tattoos which represent symbols of nature, mainly those related to the lunar.
     
@@ -57,7 +56,7 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     
     This time, the object transcends the individual and shows the community, the regional: a unity in diversity, a fight to maintain authenticity, even in a world which tends towards standardization.
     </h1>
-    <h1 className='w-2/12 mt-32'>Kemara : 
+    <h1 className='md:w-2/12 md:mt-32'>Kemara : 
 
 
 Les pièces de monnaie, du jeu de cartes original sont remplacées par des visages, la forme circulaire se répète, mais nous y découvrons des visages (Kemmara) aux traits distincts et divers.
@@ -67,17 +66,16 @@ Cet objet s’inspire de l’hétérogénéité que l’on retrouve en Afrique d
 Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lunes, mais pas que ça.
 
 1Cette fois-ci, l’objet transcende l’individu et montre la communauté, le régional : une unité dans la diversité, un combat pour maintenir l’authenticité , même dans un monde qui tend vers l'uniformisation. </h1>
-    <img className='w-1/12' src="/kemara.jpg" alt="" />
-    <img className='w-3/12 h-5/6' src="/sota.PNG" alt="" />
+    
+    <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
     </div>
 
 
     
-  <div className='perso flex flex-row space-x-8 mx-32'>
+  <div className='perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>
   
-  <img src="/burro.PNG" className='w-3/12 h-5/6' alt="" />
-  <img className='w-1/12' src="/nejma.jpg" alt="" />
-  <h1 className='w-2/12 mt-32'>
+  <img src="/burro.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
+  <h1 className='md:w-2/12 mt-32 md:block hidden'>
   The “Nejma” (stars in Arabic) are the crosses or stars of Agadez, we can find them in jewelry and decorative designs of several ethnic groups in North Africa.
     
     This fascinating symbol is the first star that appears in the sky, the star that guides the nomads in the desert, “the eye of God” as the “blue men” call it, symbol of eternal beginnings, it guides them towards truth and justice.
@@ -87,7 +85,7 @@ Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lune
     In Amazigh mythology, the first star that appears in the sky is the goddess “Taïa”, daughter of “Ayyour”: the moon, she is the engendered mother and the mother who will engender the other stars, following her appearance.
     </h1> 
     
-  <h1 className='w-2/12 mt-32'>
+  <h1 className='md:w-2/12 md:mt-32'>
   Nejma : 
 
 Les “Nejma” ( étoiles en arabe) sont les croix ou étoiles d’Agadez, on peut les retrouver dans les bijoux et les dessins décoratifs de plusieurs ethnies d’Afrique du nord.
@@ -98,13 +96,13 @@ Les épées du jeu original, qui sont des outils de guerre, sont remplacées dan
 
 Dans la mythologie Amazighe, la première étoile qui apparaît dans le ciel est la déesse “Taïa”, fille d’”Ayyour” : la lune, elle est la mère engendrée et la mère qui engendrera les autres étoiles, suivant son apparition. 
   </h1> 
-  <img className='w-3/12 h-5/6' src="/sota.PNG" alt="" />
+  <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
   </div>
-    <div className=' perso flex flex-row space-x-8 mx-32'>  
-    <img src="/carass.PNG" className='w-3/12 h-5/6' alt="" />
+    <div className=' perso flex flex-col md:mx-32 mx-8 md:space-x-8 md:flex-row place-items-center'>  
+    <img src="/carass.PNG" className='md:w-3/12 h-5/6 w-6/12' alt="" />
   
-  <img className='w-1/12' src="/bashar.jpg" alt="" />
-  <h1 className='w-2/12 mt-32'>
+
+  <h1 className='md:w-2/12 mt-32 md:block hidden'>
   Finally, the sticks from the original game turn into statues. Statues that can be found in different cultures throughout the world and history. 
     
     They might seem disconnected, but the human prevails, because the human is the only living being to play cards, to play his life sometimes through choices.
@@ -115,7 +113,7 @@ Dans la mythologie Amazighe, la première étoile qui apparaît dans le ciel est
     
     “The symbol is used to recognize oneself.”
     </h1>
-  <h1 className='w-2/12 mt-32'>
+  <h1 className='md:w-2/12 md:mt-32'>
   Bashar :
 
 
@@ -129,7 +127,7 @@ Nous passons du transcendantal au corporel, au tangible. Nous étendons le régi
 
 "Le symbole sert à se reconnaître."
     </h1>
-    <img className='w-3/12 h-5/6' src="/sota.PNG" alt="" />
+    <img className='md:w-3/12 h-5/6 w-6/12' src="/sota.PNG" alt="" />
     </div>
 </div>
    
