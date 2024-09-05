@@ -4,13 +4,7 @@
   aspect-ratio:7/2;
   position: relative;
 }
-@media only screen and (max-device-width : 1025px) {
- .svg-container{
-  width: 100%;
-  
- }
- 
-}
+
 
 
 

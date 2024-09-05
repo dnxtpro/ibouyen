@@ -7,6 +7,14 @@
     
     font-family: Georgia, serif; /* Establece la fuente Georgia */
     font-weight: bold; /* Aplica negrita */
-    font-size: 20px; 
     color: #4e24ff;
+}
+.il{
+    background-color:#fffee2;
+    font-family: Georgia, serif; /* Establece la fuente Georgia */
+    color: #9bb8b0;
+    border:1vh dashed;
+    border-color:#9bb8b0;
+    border-radius:2vh;
+
 }
