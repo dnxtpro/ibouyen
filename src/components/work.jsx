@@ -18,8 +18,9 @@ function Work() {
   const y2=useTransform(scrollYProgress,[0.3,1],[0,-500])
   const scale1 =useTransform(scrollYProgress, [0.2, 1], [1, 0.5]);
   const scale2 =useTransform(scrollYProgress, [0.3, 1], [1, 0.5]);
-  const scale5 =useTransform(scrollYProgress, [0.5, 1], [1, 1.2]);
+  const scale5 =useTransform(scrollYProgress, [0.5, 1], [1, 1.005]);
   const x=useTransform(scrollYProgress,[0.5,1],[0,-200])
+  const yw=useTransform(scrollYProgress,[0.5,1],[0,-100])
 
   
   return (
@@ -44,10 +45,10 @@ function Work() {
         <img  src="./work/aichakandicha.jpg"  alt="" />
         </motion.div>
        
-        <motion.div style={{scale:scale5,x}} className='col-span-4 col-start-3 row-start-5 flex flex-row'>
+        <motion.div style={{scale:scale5,x,y:yw}} className='col-span-4 col-start-3 row-start-5 flex flex-row'>
                 <div className="grid grid-cols-2 gap-0">
-                        <div onClick={handleDownload} className="row-span-2"><img src="./work/clickhere.png" className=' hover:cursor-pointer' alt="" /></div>
-                        <div className="row-span-2 col-start-2 row-start-2"> <img src="./work/estatua.jpg" alt="" /></div>
+                        <a  href='https://drive.google.com/drive/folders/15h5wY6wwbIfdpVqp-ejVcJBva-MGsDFT' className="row-span-2"><img src="./clickheree.PNG" className=' hover:cursor-pointer' alt="" /></a>
+                        <div className="row-span-2 col-start-2 row-start-2"> <img src="./estatua.PNG" alt="" /></div>
                  </div>
 
                 
