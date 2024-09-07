@@ -57,7 +57,7 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     <img src="/Kemara 1.png" className='xl:w-3/12 h-5/6 w-6/12' alt="" />
     <img src="/Kemara 3.png" className='xl:w-3/12 h-5/6 w-6/12 ' alt="" />
     </div>
-    <h1 className='xl:w-2/12 mt-32 xl:block hidden'>The coins from the original card game are replaced by faces, the circular shape is repeated, but we discover faces (Kemmara) with distinct and diverse features.
+    <h1 className='xl:w-2/12 mt-32 '>The coins from the original card game are replaced by faces, the circular shape is repeated, but we discover faces (Kemmara) with distinct and diverse features.
     
     This object is inspired by the heterogeneity found in North Africa, we see different faces and different Amazigh tattoos which represent symbols of nature, mainly those related to the lunar.
     
@@ -65,7 +65,7 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     
     This time, the object transcends the individual and shows the community, the regional: a unity in diversity, a fight to maintain authenticity, even in a world which tends towards standardization.
     </h1>
-    <h1 className='xl:w-2/12 xl:mt-32'>Kemara : 
+    <h1 className='xl:w-2/12 xl:mt-32 xl:block hidden'>Kemara : 
 
 
 Les pièces de monnaie, du jeu de cartes original sont remplacées par des visages, la forme circulaire se répète, mais nous y découvrons des visages (Kemmara) aux traits distincts et divers.
