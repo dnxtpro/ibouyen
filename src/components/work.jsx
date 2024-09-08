@@ -19,7 +19,7 @@ function Work() {
   const scale1 =useTransform(scrollYProgress, [0.2, 1], [1, 0.5]);
   const scale2 =useTransform(scrollYProgress, [0.3, 1], [1, 0.5]);
   const scale5 =useTransform(scrollYProgress, [0.5, 1], [1, 1.005]);
-  const x=useTransform(scrollYProgress,[0.5,1],[0,-150])
+  const x=useTransform(scrollYProgress,[0.5,1],[0,-100])
   const yw=useTransform(scrollYProgress,[0.5,1],[0,-100])
 
   
