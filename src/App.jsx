@@ -28,7 +28,7 @@ function App() {
 
     <Routes>
       <Route path="/shop" element={<Hero/>}/>
-
+      <Route path="/" element={<Navigate to="/work" replace />} />
       <Route path="/work" element={<Work/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/ronda" element={<Ronda/>}/>
