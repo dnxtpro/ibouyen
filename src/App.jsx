@@ -5,7 +5,7 @@ import './App.css'
 import Hero from './components/hero.jsx'
 import Work from './components/work.jsx'
 import { motion,useScroll,useSpring,useTransform } from 'framer-motion'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
 import Products from './components/products.jsx'
 import Contact from './components/contact'
 import Footer from './components/footer.jsx'
@@ -13,6 +13,7 @@ import Ronda from './components/ronda.jsx'
 import Aboutme from './components/aboutme.jsx'
 import { Analytics } from "@vercel/analytics/react"
 import { inject } from '@vercel/analytics';
+
 
 inject();
 function App() {
