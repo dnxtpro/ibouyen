@@ -26,7 +26,7 @@ function Footer() {
   <a href='https://www.instagram.com/ibouyen' className='flex flex-row items-center h-[7vh]'><img className='h-[7vh]' src="ibig.png" alt="" /></a>
   <div className="flex flex-row space-x-4 justify-around mt-2 il p-2">
     <h2 className='align-middle text-xs'>THiS WEB WAS MADE BY iLiAS AFAiLAL  </h2>   
-    <a href=''><img className=' h-[2vh]' src="/2515843_black and white_dark grey_instagram_icon.svg" alt="" /></a>
+    <a href='mailto:iliasafailal@gmail.com'><img className=' h-[2vh]' src="/2515843_black and white_dark grey_instagram_icon.svg" alt="" /></a>
     <a href="https://github.com/dnxtpro"><img className='h-[2vh]' src="/github-mark.svg" alt="" /></a>
 
 </div>
