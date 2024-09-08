@@ -3,13 +3,14 @@ import { motion,useScroll,useTransform} from 'framer-motion'
 import ImageSlider from './slider'
 
 
+
 function Ronda() {
 
   return (
       
 <div className='flex flex-col mx-auto space-y-4'>
   <div><ImageSlider></ImageSlider></div>
-    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4  '>
+    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4 xl:justify-around '>
     <img src="/Berrad 1.png" className='xl:w-3/12 h-5/6 w-6/12 xl:block hidden'  alt="" />
       <div className="flex flex-row xl:hidden">
       <img src="/Berrad 1.png" className='xl:w-3/12 h-5/6 w-6/12 '  alt="" />
@@ -51,7 +52,7 @@ Ce fut le premier objet, le début de ce projet, le commencement d’un voyage d
     <img src="/Berrad 2.png " className='xl:w-3/12 h-5/6 w-6/12 hidden xl:block' alt="" />
    
     </div>
-    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4'>
+    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4 xl:justify-around'>
     <img src="/Kemara 1.png" className='xl:w-3/12 h-5/6 w-6/12 xl:block hidden' alt="" />
     <div className="flex flex-row xl:hidden">  
     <img src="/Kemara 1.png" className='xl:w-3/12 h-5/6 w-6/12' alt="" />
@@ -81,7 +82,7 @@ Curieusement, les visages dans le jeu de cartes nous rappellent des pleines lune
 
 
     
-  <div className='perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4'>
+  <div className='perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4 xl:justify-around'>
    <img className='xl:w-3/12 h-5/6 w-6/12 hidden xl:block' src="/Nejma 1.png" alt="" />
     <div className="flex flex-row xl:hidden">
     <img className='xl:w-3/12 h-5/6 w-6/12' src="/Nejma 1.png" alt="" />
@@ -113,7 +114,7 @@ Dans la mythologie Amazighe, la première étoile qui apparaît dans le ciel est
   </h1> 
   <img className='xl:w-3/12 h-5/6 w-6/12 xl:block hidden' src="/Nejma 2.png" alt="" />
   </div>
-    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4'>  
+    <div className=' perso flex flex-col xl:mx-16 mx-8 xl:space-x-8 xl:flex-row place-items-center space-y-4 xl:justify-around'>  
      <img src="/Bashar 1-min.png" className='xl:w-3/12 h-5/6 w-6/12 hidden xl:block' alt="" />
       <div className="flex flex-row xl:hidden">
       <img src="/Bashar 1-min.png" className='xl:w-3/12 h-5/6 w-6/12' alt="" />
