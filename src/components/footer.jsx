@@ -12,7 +12,7 @@ function Footer() {
 
   return (
       
-<div className='  flex flex-row bottom-0 h-[20vh] cuaderno w-full items-center justify-around space-x-4 xl:space-x-2 '>
+<div className='  flex flex-row bottom-0 h-[20vh] cuaderno w-full items-center justify-around space-x-8 xl:space-x-2 '>
 <div className="flex flex-col mt-4 h-[20vh]  justify-center ">
 <a href="/work">WoRK</a>
 <a href="/contact">CoNTACT</a>
