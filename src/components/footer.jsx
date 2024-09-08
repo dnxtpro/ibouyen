@@ -13,7 +13,7 @@ function Footer() {
   return (
       
 <div className='  flex flex-row bottom-0 h-[20vh] cuaderno w-full items-center justify-around '>
-<div className="flex flex-col mt-4 h-[20vh]  justify-center ">
+<div className="flex flex-col mt-4 h-[20vh] w-1/2 xl:w-auto justify-center ">
 <a href="/work">WoRK</a>
 <a href="/contact">CoNTACT</a>
 <a href="/aboutme">ABoUT ME</a>
@@ -22,7 +22,7 @@ function Footer() {
 <a href="/ronda">RoNDA</a>
 </div>
 <img className='md:block hidden h-3/4 ' src="/dordor.GIF" alt="" />
-<div className='flex flex-col justify-center  w-auto'>
+<div className='flex flex-col justify-center w-1/2  xl:w-auto'>
   <a href='https://www.instagram.com/ibouyen' className='flex flex-row items-center h-[7vh]'><img className='h-[7vh]' src="ibig.png" alt="" /></a>
   <div className="flex flex-row space-x-4 justify-around mt-2 il p-2">
     <h2 className='align-middle text-xs'>THiS WEB WAS MADE BY iLiAS AFAiLAL  </h2>   
