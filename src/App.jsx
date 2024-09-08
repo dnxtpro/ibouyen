@@ -11,11 +11,13 @@ import Contact from './components/contact'
 import Footer from './components/footer.jsx'
 import Ronda from './components/ronda.jsx'
 import Aboutme from './components/aboutme.jsx'
+import { Analytics } from "@vercel/analytics/react"
+import { inject } from '@vercel/analytics';
 
-
+inject();
 function App() {
   const [count, setCount] = useState(0);
-  
+
 
   return (
     <Router>
