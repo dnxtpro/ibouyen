@@ -21,9 +21,9 @@ function Footer() {
 <a href="/shop">SHoP</a>
 <a href="/ronda">RoNDA</a>
 </div>
-<img className='h-full' src="/dordor.GIF" alt="" />
-<div className='flex flex-col justify-center  w-[33vw]'>
-  <a href='https://www.instagram.com/ibouyen' className='flex flex-row items-center h-[7vh]'><img className='h-[7vh]' src="ing.PNG" alt="" />@ibouyen</a>
+<img className='md:block hidden h-3/4 ' src="/dordor.GIF" alt="" />
+<div className='flex flex-col justify-center  w-auto'>
+  <a href='https://www.instagram.com/ibouyen' className='flex flex-row items-center h-[7vh]'><img className='h-[7vh]' src="ibig.png" alt="" /></a>
   <div className="flex flex-row space-x-4 justify-around mt-2 il p-2">
     <h2 className='align-middle text-xs'>THiS WEB WAS MADE BY iLiAS AFAiLAL  </h2>   
     <a href='https://www.instagram.com/afailalilias'><img className=' h-[2vh]' src="/2515843_black and white_dark grey_instagram_icon.svg" alt="" /></a>
