@@ -42,7 +42,7 @@ function Work() {
         </motion.div>
         
         <motion.div style={{scale:scale2,y:y2}} className='col-span-2 row-span-2 row-start-4'>
-        <img  src="./work/aichakandicha.jpg"  alt="" />
+        <a href='https://drive.google.com/file/d/1z6XGKEUif8gCI4-WvjR7fC7kTUOf7G1N/view?usp=drive_link'><img  src="./work/aichakandicha.jpg"  alt="" /></a>
         </motion.div>
        
         <motion.div style={{scale:scale5,x,y:yw}} className='col-span-4 col-start-3 row-start-5 flex flex-row'>
